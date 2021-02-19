@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.basic_info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    background-color: burlywood;
+    color:black;
+}
+.basic_info img{
+    width: 25%;
+    height: 25%;
+}
+.committies {
+    border-top: black solid 1em;
+    border-bottom: black solid 1em;
+    background-color: darkblue;
+    color: white;
+    font-size: 1.25em;
+}
+.legislation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkgoldenrod;
+    color: navy;
+}
+.legislation_link {
+    font-size: 1.25em;
+    color: darkblue;
+}
